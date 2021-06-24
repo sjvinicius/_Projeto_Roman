@@ -9,5 +9,4 @@ SELECT * FROM Professores;
 
 SELECT * FROM Temas;
 
-SELECT * FROM Projeto;
-
+SELECT * FROM Projetos;

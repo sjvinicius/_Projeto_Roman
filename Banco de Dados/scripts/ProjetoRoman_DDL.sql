@@ -33,7 +33,7 @@ CREATE TABLE Temas(
 );
 GO
 
-CREATE TABLE Projeto(
+CREATE TABLE Projetos(
 	IdProjeto     INT PRIMARY KEY IDENTITY,
 	IdTema        INT FOREIGN KEY  REFERENCES Temas(IdTema),
 	NomeProjeto   VARCHAR (200) NOT NULL,

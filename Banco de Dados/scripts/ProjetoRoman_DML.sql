@@ -15,7 +15,7 @@ GO
 
 INSERT INTO Professores(IdUsuario, NomeProfessor)
 VALUES		(2,'Caique'),
-			(1,'Saulo')
+			(3,'Saulo')
 
 GO
 
@@ -25,7 +25,7 @@ VALUES      ('Gestão'),
 
 GO
 
-INSERT INTO Projeto(IdTema, NomeProjeto, Descricao)
+INSERT INTO Projetos(IdTema, NomeProjeto, Descricao)
 VALUES				(1, 'Roman', 'Projeto baseado na roma'),
 					(2, 'ProjetoMarvel', 'Projeto listar todos os herois da marvel')
 
