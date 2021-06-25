@@ -28,7 +28,7 @@ namespace senai.projeto.roman.webApi.Controllers
         /// Lista todos os temas
         /// </summary>
         /// <returns>Um status code 200 - Ok e uma lista de projetos</returns>
-        [Authorize(Roles = "administrador")]
+        //[Authorize(Roles = "administrador")]
         [HttpGet]
         public IActionResult Get()
         {

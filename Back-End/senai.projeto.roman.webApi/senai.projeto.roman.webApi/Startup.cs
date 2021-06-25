@@ -60,6 +60,16 @@ namespace senai.projeto.roman.webApi
                     };
                 });
 
+            services.AddCors(options => {
+                options.AddPolicy("CorsPolicy",
+                    builder => {
+                        builder.WithOrigins("http://localhost:3000", "http://localhost:19006", "http://localhost:19007")
+                                                                    .AllowAnyHeader()
+                                                                    .AllowAnyMethod();
+                    }
+                );
+            });
+
             services.AddSwaggerGen(c => 
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Version = "v1", Title = "Roman Web API", Description = "Web API Para o projeto Roman" });
@@ -90,6 +100,8 @@ namespace senai.projeto.roman.webApi
             app.UseAuthentication();
 
             app.UseAuthorization();
+
+            app.UseCors("CorsPolicy");
 
             app.UseEndpoints(endpoints =>
             {

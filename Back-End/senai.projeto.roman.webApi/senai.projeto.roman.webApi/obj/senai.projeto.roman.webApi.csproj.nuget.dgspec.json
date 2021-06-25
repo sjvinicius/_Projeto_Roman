@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vitor Manoel\\OneDrive\\Área de Trabalho\\Projeto-Roman\\_Projeto_Roman\\Back-End\\senai.projeto.roman.webApi\\senai.projeto.roman.webApi\\senai.projeto.roman.webApi.csproj": {}
+    "C:\\Users\\vinyl\\OneDrive\\Área de Trabalho\\_Projeto_Roman\\Back-End\\senai.projeto.roman.webApi\\senai.projeto.roman.webApi\\senai.projeto.roman.webApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vitor Manoel\\OneDrive\\Área de Trabalho\\Projeto-Roman\\_Projeto_Roman\\Back-End\\senai.projeto.roman.webApi\\senai.projeto.roman.webApi\\senai.projeto.roman.webApi.csproj": {
+    "C:\\Users\\vinyl\\OneDrive\\Área de Trabalho\\_Projeto_Roman\\Back-End\\senai.projeto.roman.webApi\\senai.projeto.roman.webApi\\senai.projeto.roman.webApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vitor Manoel\\OneDrive\\Área de Trabalho\\Projeto-Roman\\_Projeto_Roman\\Back-End\\senai.projeto.roman.webApi\\senai.projeto.roman.webApi\\senai.projeto.roman.webApi.csproj",
+        "projectUniqueName": "C:\\Users\\vinyl\\OneDrive\\Área de Trabalho\\_Projeto_Roman\\Back-End\\senai.projeto.roman.webApi\\senai.projeto.roman.webApi\\senai.projeto.roman.webApi.csproj",
         "projectName": "senai.projeto.roman.webApi",
-        "projectPath": "C:\\Users\\Vitor Manoel\\OneDrive\\Área de Trabalho\\Projeto-Roman\\_Projeto_Roman\\Back-End\\senai.projeto.roman.webApi\\senai.projeto.roman.webApi\\senai.projeto.roman.webApi.csproj",
-        "packagesPath": "C:\\Users\\Vitor Manoel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vitor Manoel\\OneDrive\\Área de Trabalho\\Projeto-Roman\\_Projeto_Roman\\Back-End\\senai.projeto.roman.webApi\\senai.projeto.roman.webApi\\obj\\",
+        "projectPath": "C:\\Users\\vinyl\\OneDrive\\Área de Trabalho\\_Projeto_Roman\\Back-End\\senai.projeto.roman.webApi\\senai.projeto.roman.webApi\\senai.projeto.roman.webApi.csproj",
+        "packagesPath": "C:\\Users\\vinyl\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vinyl\\OneDrive\\Área de Trabalho\\_Projeto_Roman\\Back-End\\senai.projeto.roman.webApi\\senai.projeto.roman.webApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Vitor Manoel\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vinyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,6 +43,10 @@
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[5.0.7, )"
+            },
+            "Microsoft.AspNetCore.Cors": {
+              "target": "Package",
+              "version": "[2.2.0, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
